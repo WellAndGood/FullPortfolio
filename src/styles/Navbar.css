@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700&family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap');
+
+.nav-item a {
+    font-size: 1.1rem;
+    font-family: 'Noto Sans KR', sans-serif;
+    padding: 10px;
+    padding-left: 50px;
+    color: #4e493d
+}
+
+.navbar {
+    margin: 0px auto;
+    background: #FEF7DC;
+    opacity: 75%;
+    border-radius: 5px;
+}
+
+.wrapper {
+    width: calc(100% - 100px);
+}
+
+.nav-menu {
+    float: right;
+}
+
+#main-title {
+    font-weight: 600;
+    font-size: 2rem;
+    font-family: 'Open Sans Condensed', sans-serif;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.subtitle {
+    font-size: 1.4rem;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-style: italic;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+@media screen and (max-width: 992px) {
+    .navbar {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .nav-menu {
+        display: flex;
+        flex-direction: column;
+        float: left;
+    }
+
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+  }

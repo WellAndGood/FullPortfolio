@@ -1,0 +1,39 @@
+.contact-me-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #fffbeb;
+}
+
+.contact-me-title {
+    border-right: 2px solid #fffbeb;
+    padding: 20px;
+}
+
+.contact-container {
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-indent: 0%;
+    border: 1px solid;
+}
+
+.contact-me-content {
+    border: 1px solid black;
+    width: 100%;
+}
+
+#contact-div {
+    padding: 0px;
+    margin: 0px;
+    text-indent: 0%;
+    font-size: 60%;
+}
+
+#contact-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}

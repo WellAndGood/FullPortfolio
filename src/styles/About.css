@@ -1,0 +1,16 @@
+.about-me {
+    display: flex;
+    background-color: #fffbeb;
+}
+
+.about-me-title {
+    border-right: 2px solid #596b86;
+    padding: 20px;
+}
+
+.skill-columns {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    
+}

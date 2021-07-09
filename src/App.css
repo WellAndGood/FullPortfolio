@@ -1,0 +1,133 @@
+.App {
+  text-align: center;
+}
+
+section {
+  width: 100%;
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+  /* for Firefox browser */
+  scrollbar-width: none;
+}
+
+section > * {
+  scroll-snap-align: start;
+}
+
+body {
+  background-color: #afa07b;
+  width: 85%;
+  max-width: 1400px;
+  margin: 0px auto;
+  border: 1px solid rgba(192, 192, 192, 0.5);
+}
+
+ul li {
+  text-decoration-style: square;
+  font-family: Lato;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #141c27;
+}
+
+p {
+  font-family: Lato;
+  line-height: 1.4;
+  font-size: 18px;
+  padding: 10px;
+  color: #141c27;
+}
+
+a {
+  font-family: Lato;
+  font-size: 18px;
+}
+
+img {
+  width: 30%;
+  float: right;
+  border: 3px solid black;
+  margin: 20px;
+  border-radius: 50px;
+}
+
+em {
+  font-weight: 900;
+}
+
+h1 {
+  font-family: Poppins;
+  font-size: 220%;
+  padding: 10px 10px 10px 10px;
+  font-weight: 600;
+  display: inline;
+  color: #4e493d;
+  background-color: #92cccd;
+  float: left;
+}
+
+h2 {
+  text-align: left;
+  font-family: Poppins;
+  font-size: 175%;
+  padding: 15px;
+  font-weight: 600;
+  color: #4e493d;
+}
+
+/* The background-colors set for h3 and h4 allow for the project's titles to be more visible against their background image */
+h3 {
+  text-align: center;
+  font-family: Poppins;
+  font-size: 150%;
+  padding: 10px;
+  font-weight: 600;
+  background-color: #fffdf4;
+  color: black;
+}
+
+h4 {
+  text-align: center;
+  font-family: Poppins;
+  font-size: 110%;
+  padding: 5px;
+  font-weight: 600;
+  background-color: #fffdf4;
+}
+
+h5 {
+  text-align: center;
+  background-color: #fffdf4;
+  padding: 5px;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
